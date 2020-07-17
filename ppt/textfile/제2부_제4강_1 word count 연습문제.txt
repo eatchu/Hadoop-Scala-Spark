@@ -1,0 +1,12 @@
+﻿      <word count 연습문제>
+1. hdfs의 /example 디렉터리 생성
+2. hadoop 홈 디렉터리에 있는 README.txt 파일을 hdfs의 /example 디렉터리에 업로드 하기 
+3. hdfs의 /example/README.txt 파일 내용보기 
+4. README.txt 파일을 대상으로 wordcount를 실행하여 /example/output 디렉터리에 저장하기 
+
+~]$ hadoop jar ./hadoop-2.9.2/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.9.2.jar  wordcount  /example/README.txt  /example/output
+
+5. /example/output 디렉터리에 생성된 wordcount 파일 보기 
+6. 로컬 디렉터리(~/hfile)에 wordcount2.txt 파일명으로 다운받기 
+7. vi 편집기로 파일 내용 보기 
+
